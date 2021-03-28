@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using ProjetoVendasMVC.Models;
+using ProjetoVendasMVC.Models.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -17,7 +17,8 @@ namespace ProjetoVendasMVC.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Aplicação MVC utilizando C# e ASP.Net Core.";
+            ViewData["Email"] = "joaop.santo96@gmail.com";
 
             return View();
         }
