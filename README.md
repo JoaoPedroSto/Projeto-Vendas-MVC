@@ -1,2 +1,2 @@
-# Projeto-Vendas-MVC
+# ProjetoVendasMVC
 Projeto de MVC utilizando C# e ASP.Net Core
